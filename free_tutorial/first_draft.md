@@ -20,8 +20,8 @@ Go to *config/routes.rb* and delete all but first and last lines. Add `root 'hom
 
 Looks like:
 
-`
+````
 TheStartupCommunity::Application.routes.draw do
   root 'home#index'
 end
-`
+````
